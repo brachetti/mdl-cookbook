@@ -25,8 +25,9 @@ preprocessors:
 
 deployments:
   gh-pages:
-    destination: local
-    out_dir: ./docs
+    destination: git
+    repo: https://github.com/brachetti/mdl-cookbook.git
+    branch: gh-pages
 
 emv:
   name: gh-pages

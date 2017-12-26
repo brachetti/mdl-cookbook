@@ -31,3 +31,4 @@ jobs:
             if [ "$CIRCLE_BRANCH" == "master" ] && [ "$CIRCLE_PULL_REQUEST" == "" ] ; then
               grow deploy --noconfirm gh-pages  ;
             fi
+
