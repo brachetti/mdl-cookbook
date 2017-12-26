@@ -1,4 +1,13 @@
 {
+  "/content/pages/about.md": [
+    "/content/pages/about.md",
+    "/content/pages/archive.md",
+    "/content/pages/index.md",
+    "/content/pages/recipes.md",
+    "/content/pages/team.md",
+    "/dist/main.min.css",
+    "/source/images/icon.png"
+  ],
   "/content/pages/archive.md": [
     "/content/pages/about.md",
     "/content/pages/archive.md",
@@ -11,10 +20,30 @@
     "/dist/main.min.css",
     "/source/images/icon.png"
   ],
+  "/content/pages/index.md": [
+    "/content/pages/about.md",
+    "/content/pages/archive.md",
+    "/content/pages/index.md",
+    "/content/pages/recipes.md",
+    "/content/pages/team.md",
+    "/dist/main.min.css",
+    "/source/images/banner3.jpg",
+    "/source/images/icon.png"
+  ],
+  "/content/pages/recipes.md": [
+    "/content/pages/about.md",
+    "/content/pages/index.md",
+    "/content/pages/recipes.md",
+    "/content/pages/team.md",
+    "/content/recipes/sauce-bernaise.md",
+    "/dist/main.min.css",
+    "/source/images/icon.png"
+  ],
   "/content/pages/team.md": [
     "/content/pages/about.md",
     "/content/pages/archive.md",
     "/content/pages/index.md",
+    "/content/pages/recipes.md",
     "/content/pages/team.md",
     "/dist/main.min.css",
     "/source/images/icon.png"
@@ -47,6 +76,7 @@
     "/content/pages/about.md",
     "/content/pages/archive.md",
     "/content/pages/index.md",
+    "/content/pages/recipes.md",
     "/content/pages/team.md",
     "/content/recipes/sauce-bernaise.md",
     "/dist/main.min.css",

@@ -1,12 +1,11 @@
 {% extends "/views/base.html" %}
 
 {% block main %}
-  <div class="meta">
-    <h1><a href="{{doc.url.path}}">{{doc.title}}</a></h1>
-    <div class="attribution">
-      {{_('Posted %(date)s', date=doc.dates.published)}}
-    </div>
-  </div>
-  {{doc.html|safe}}
-  </div>
+<h2>{{_('Archive')}}</h2>
+  <ul>
+    {% for post in g.docs('recipes') %}
+      <li><a href="{{post.url.path}}">{{post.title}}</a>
+    {% endfor %}
+  </ul>
 {% endblock %}
+

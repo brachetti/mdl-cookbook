@@ -1,4 +1,4 @@
-path: /{slug}/               # The URL path format.
+path: /{slug}.html           # The URL path format.
 view: /views/pages.html      # The template to use.
 title: Pages                 # Collection's title.
 
