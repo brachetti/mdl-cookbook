@@ -24,3 +24,10 @@ jobs:
       - run:
           name: Test Build
           command: grow build
+
+      - run:
+          name: Deploy to GH Pages
+          comand: |
+            if [ "$CIRCLE_BRANCH" == "master" ] && [ "$CIRCLE_PULL_REQUEST" == "" ] ; then
+              grow deploy --noconfirm gh-pages  ;
+            fi
