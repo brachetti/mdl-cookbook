@@ -28,6 +28,7 @@ deployments:
     destination: git
     repo: https://github.com/brachetti/mdl-cookbook.git
     branch: gh-pages
+    root_dir: build
+    env:
+      name: gh-pages
 
-emv:
-  name: gh-pages
