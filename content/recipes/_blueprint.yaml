@@ -1,0 +1,6 @@
+title: Recipes
+path: /recipes/{slug}/
+view: /views/recipes.html
+
+localization:
+  path: /{locale}/{slug}/
